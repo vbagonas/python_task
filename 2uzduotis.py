@@ -5,7 +5,7 @@ client = MongoClient('localhost', 27017)
 db = client['restaurants_db']
 collection = db['restaurants']
 
-json_file_path = 'C:/Users/bagon/PycharmProjects/2_uzduotis/retaurants.json'
+json_file_path = 'path/to/your/file'
 
 with open(json_file_path, 'r', encoding='utf-8') as file:
     for line in file:
